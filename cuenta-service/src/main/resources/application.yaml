@@ -16,5 +16,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
-server:
-  port: 8081
+cliente-service:
+  url : http://cliente_service:8080
